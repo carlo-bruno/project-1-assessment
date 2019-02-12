@@ -47,6 +47,12 @@ h1 {
 
   cursor: pointer;
   box-shadow: 0 5px 1px #aaa;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 }
 
 .button:hover {
