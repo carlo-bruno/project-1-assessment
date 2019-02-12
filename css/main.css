@@ -10,8 +10,9 @@ html {
 }
 
 main {
-  width: 50vw;
+  min-width: 800px;
   height: 70vh;
+  max-height: 400px;
   margin: 0 auto;
 }
 
@@ -43,7 +44,19 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  cursor: pointer;
+  box-shadow: 0 5px 1px #aaa;
 }
+
+.button:hover {
+  background-color: #bbb;
+}
+.button:active {
+  box-shadow: 0 3px 1px #aaa;
+  transform: translateY(2px);
+}
+
 .button p {
   font-size: 3rem;
   color: #fff;
