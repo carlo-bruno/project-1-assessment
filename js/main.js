@@ -1,10 +1,9 @@
 console.log("Javascript linked");
 
 // dom selectors
-
 let numberSpan, plusBtn, minusBtn, inputEl;
 
-// variables
+// variable
 let currentNumber = 0;
 
 // function to get the number from the input
@@ -25,7 +24,6 @@ function subtractNumber(input) {
 }
 
 // function to update number shown
-
 function updateNumber() {
   numberSpan.textContent = `${currentNumber}`;
   if (currentNumber < 0) {
